@@ -13,3 +13,7 @@ O intuito também é que o contador sempre renove toda vez que o aniversário de
 <p align="justify">
 Embora o projeto seja simples, está me ajudando bastante a entender os cálculos com datas e conversão de algumas medidas em JS. 🤓
 </p>
+
+<p>
+ Você pode encontrar o projeto em produção <a href="https://lucasnicolodi.github.io/countdown-aniversario-marcos/">aqui</a>.
+</p>
