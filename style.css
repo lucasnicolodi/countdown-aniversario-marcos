@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+html {
+  background-image: url("./images/WhatsApp\ Image\ 2022-01-29\ at\ 16.54.33.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 100vh;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: rgb(3, 3, 41);
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container__titulo__h1 {
+  font-size: 3.275rem;
+  margin: 0.5em 1em;
+  font-weight: bold;
+}
+
+.container__tempo {
+  display: flex;
+}
+
+.container__tempo__el {
+  margin-top: -2rem;
+  margin-right: 2rem;
+}
+
+.container__tempo__texto {
+  font-size: 5rem;
+  font-weight: 400;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.container__tempo__el span {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
